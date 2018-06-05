@@ -1,13 +1,42 @@
 /* Profle Pic */
 #profile_pic_size {
-    width: 135px;
-    height: 135px;
+    width: 145px;
+    height: 145px;
 }
+
+.position {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+}
+
 
 .border:hover {
     border-color: #FFC107 !important;
     border-style: solid !important;
+    border-width: medium !important;
 }
+
+/* img shadow portfolio */
+.shady:hover {
+    box-shadow: 0 14px 28px -3px rgba(170,167,167,0.63), inset 0 1px 3px 0 rgba(0,0,0,0.50)!important;
+    transform: translate(0, -10px);
+}
+/* Colors */
+.yellow {
+    color: #FFC107 !important;
+}
+
+.grey_y:hover {
+    color: #FFC107 !important;
+}
+
+.fab:hover {
+    color: #FFC107 !important;
+}
+
 
 /* nav style */
 .nav_font {
@@ -19,6 +48,29 @@
     font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #FFC107 !important;
+}
+
+.btn:hover {
+    border-color: #FFC107 !important;
+    color: #FFC107 !important;
+    background: white !important;
+}
+
+
+
+.topsection {
+    padding-top: 125px !important;
+}
+
+
+
+.b-w {
+    color: white !important;
+}
+
+.work {
+    font-size: 16px;
+    color: #3a4145;
 }
 
 h1 {
@@ -39,10 +91,16 @@ h3 {
     color: #3a4145;
 }
 
+h5 {
+    font-family: open sans,sans-serif;
+    font-weight: 400;
+    color: #aaa;
+}
+
 p {
     font-family: open sans,sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 18px;
     color: #aaa;
 }
 
